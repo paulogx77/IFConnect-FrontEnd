@@ -2,7 +2,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { fetchFromAPI } from '@/lib/api';
+import { fetchFromAPI } from '../lib/api';
 
 interface CurtirButtonProps {
   postagemId: string;

@@ -3,8 +3,8 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { useUsuario } from '@/context/UsuarioContext';
-import { fetchFromAPI } from '@/lib/api';
+import { useUsuario } from '../../context/UsuarioContext';
+import { fetchFromAPI } from '../../lib/api';
 
 export default function Login() {
   const [email, setEmail] = useState('');

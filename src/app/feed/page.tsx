@@ -2,12 +2,12 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { useUsuario } from '@/context/UsuarioContext';
-import ListaAmigos from '@/components/ListaAmigos';
-import CriarPostagem from '@/components/CriarPostagem';
-import CurtirButton from '@/components/CurtirButton';
-import Comentarios from '@/components/Comentarios';
-import { fetchFromAPI } from '@/lib/api';
+import { useUsuario } from '../../context/UsuarioContext';
+import ListaAmigos from '../../components/ListaAmigos';
+import CriarPostagem from '../../components/CriarPostagem';
+import CurtirButton from '../../components/CurtirButton';
+import Comentarios from '../../components/Comentarios';
+import { fetchFromAPI } from '../../lib/api';
 
 interface Postagem {
   id: string;

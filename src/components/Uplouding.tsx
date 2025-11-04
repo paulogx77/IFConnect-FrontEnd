@@ -1,6 +1,6 @@
 'use client';
 
-import { fetchFromAPI } from '@/lib/api';
+import { fetchFromAPI } from '../lib/api';
 
 interface UploadingProps {
   onUpload: (url: string) => void;

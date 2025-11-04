@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
-import { fetchFromAPI } from '@/lib/api';
+import { fetchFromAPI } from '../../../lib/api';
 
 interface Usuario {
   id: string;
